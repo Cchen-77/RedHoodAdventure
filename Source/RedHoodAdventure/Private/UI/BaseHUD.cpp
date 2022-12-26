@@ -55,6 +55,8 @@ void ABaseHUD::OpenDeadScreen()
 }
 void ABaseHUD::CloseDeadScreen()
 {
+
+
 	if (DeadScreen) 
 		DeadScreen->RemoveFromParent();
 	DecUICount();
